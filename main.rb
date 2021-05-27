@@ -1,13 +1,13 @@
-def fizzbuzz(n=1..100)
-    n.each do |n|
-    if n % 15 == 0
+def fizzbuzz(number=1..100)
+    number.each do |number|
+    if number % 15 == 0
         p 'fizzbuzz'
-    elsif n % 3 == 0
+    elsif number % 3 == 0
         p 'fizz'
-    elsif n % 5 == 0
+    elsif number % 5 == 0
         p 'buzz'
     else
-        p n
+        p number
     end
 end 
 end
