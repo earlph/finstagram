@@ -1,7 +1,7 @@
 n = [*1..100]
 
 def fizzbuzz(n)
-    if n % 3 == 0 && n % 5 == 0
+    if n % 15 == 0
         p 'fizzbuzz'
     elsif n % 3 == 0
         p 'fizz'
